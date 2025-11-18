@@ -9,7 +9,15 @@ public class ExcelMain {
 		String s=ExcelCode.readStringData(1, 0); 
 		System.out.println(s); 
 		String s1=ExcelCode.readIntegerData(1, 1); 
-		System.out.println(s1); 
+		System.out.println(s1);
+		String s2=ExcelCode.readStringData(2, 0); 
+		System.out.println(s2); 
+		String s3=ExcelCode.readIntegerData(2, 1); 
+		System.out.println(s3);
+		String s4=ExcelCode.readStringData(3, 0); 
+		System.out.println(s4); 
+		String s5=ExcelCode.readIntegerData(3, 1); 
+		System.out.println(s5);
 		 
  
 	} 
